@@ -14,6 +14,7 @@
 		89230EA72135998A00D1F258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89230EA52135998A00D1F258 /* LaunchScreen.storyboard */; };
 		89230EB22135998A00D1F258 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89230EB12135998A00D1F258 /* FoodTrackerTests.swift */; };
 		89230EBD2135998A00D1F258 /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89230EBC2135998A00D1F258 /* FoodTrackerUITests.swift */; };
+		899E4F4321384902003DCD19 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E4F4221384902003DCD19 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		89230EB82135998A00D1F258 /* FoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89230EBC2135998A00D1F258 /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		89230EBE2135998A00D1F258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899E4F4221384902003DCD19 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		89230E902135998900D1F258 = {
 			isa = PBXGroup;
 			children = (
+				899E4F4221384902003DCD19 /* RatingControl.swift */,
 				89230E9B2135998900D1F258 /* FoodTracker */,
 				89230EB02135998A00D1F258 /* FoodTrackerTests */,
 				89230EBB2135998A00D1F258 /* FoodTrackerUITests */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89230E9F2135998900D1F258 /* ViewController.swift in Sources */,
+				899E4F4321384902003DCD19 /* RatingControl.swift in Sources */,
 				89230E9D2135998900D1F258 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
